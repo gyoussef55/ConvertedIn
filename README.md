@@ -102,8 +102,8 @@ void logViewContent() async {
     currency: "USD",
     total: "100",
     products: [
-      ConvertedInProduct(id: "product1", name: "Product 1", price: "50", quantity: 1),
-      ConvertedInProduct(id: "product2", name: "Product 2", price: "50", quantity: 1),
+      ConvertedInProduct(id: 1, name: "Product 1", quantity: 1),
+      ConvertedInProduct(id: 2, name: "Product 2", quantity: 1),
     ],
   );
   print(result);
@@ -119,8 +119,8 @@ void logAddToCart() async {
     currency: "USD",
     total: "150",
     products: [
-      ConvertedInProduct(id: "product1", name: "Product 1", price: "50", quantity: 1),
-      ConvertedInProduct(id: "product2", name: "Product 2", price: "100", quantity: 1),
+      ConvertedInProduct(id: 1, name: "Product 1", quantity: 1),
+      ConvertedInProduct(id: 2, name: "Product 2", quantity: 1),
     ],
   );
   print(result);
@@ -136,8 +136,8 @@ void logCheckoutInitiation() async {
     currency: "USD",
     total: "150",
     products: [
-      ConvertedInProduct(id: "product1", name: "Product 1", price: "50", quantity: 1),
-      ConvertedInProduct(id: "product2", name: "Product 2", price: "100", quantity: 1),
+      ConvertedInProduct(id: 1, name: "Product 1", quantity: 1),
+      ConvertedInProduct(id: 2, name: "Product 2", quantity: 1),
     ],
   );
   print(result);
@@ -153,8 +153,8 @@ void logPurchaseEvent() async {
     currency: "USD",
     total: "150",
     products: [
-      ConvertedInProduct(id: "product1", name: "Product 1", price: "50", quantity: 1),
-      ConvertedInProduct(id: "product2", name: "Product 2", price: "100", quantity: 1),
+      ConvertedInProduct(id: 1, name: "Product 1", quantity: 1),
+      ConvertedInProduct(id: 2, name: "Product 2", quantity: 1),
     ],
     orderId: "order-12345",
   );
@@ -172,8 +172,8 @@ void logCustomEvent() async {
     currency: "USD",
     total: "150",
     products: [
-      ConvertedInProduct(id: "product1", name: "Product 1", price: "50", quantity: 1),
-      ConvertedInProduct(id: "product2", name: "Product 2", price: "100", quantity: 1),
+      ConvertedInProduct(id: 1, name: "Product 1", quantity: 1),
+      ConvertedInProduct(id: 2, name: "Product 2", quantity: 1),
     ],
   );
   print(result);
